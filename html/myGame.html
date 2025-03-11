@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שולה מוקשים</title>
+    <link rel="stylesheet" href="../css/myGame.css">
+</head>
+
+<body dir="rtl">
+    <iframe src="../html/instructions.html" scrolling="no" id="iframe"></iframe>
+    <div class="container">
+        <main>
+            <table id="board"></table>
+        </main>
+        <div id="feedback">
+            <div id="messages"></div>
+            <div id="selectOfLevel">
+                <label for="LevelSelection" id="LevelTeaching">בחר גודל </label><br>
+                <select name="LevelSelection" id="LevelSelection">
+                    <option value="" disabled selected hidden></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <button type="button" id="newGame">משחק חדש</button>
+            <a href="../html/games.html"><button type="button" id="exitToGame">חזרה לתפריט</button></a>
+            <a href="../html/login.html"><button type="button" id="exit">ליציאה</button></a>
+            <div dir="ltr">
+                <ul id="degree">
+                    <li id="1">מתחיל</li>
+                    <li id="2">מתקדם</li>
+                    <li id="3">מומחה</li>
+                    <li id="4">אלוף</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/myGame.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</html>

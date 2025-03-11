@@ -1,0 +1,74 @@
+body {
+    background-image: url('../imege/מקלדת.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#logo {
+    margin-right: 80%;
+}
+
+#formRegisterContainer,
+#formLoginContainer {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(196, 185, 185);
+    width: 300px;
+    text-align: center;
+    height: 450px;
+    width: 600px;
+    margin-top: 100px;
+    margin-right: 35%;
+    display: block;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(163, 3, 96);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: rgb(141, 3, 83);
+}
+
+#errorPassword {
+    margin: 0%;
+}
+
+#formRegisterContainer {
+    display: none;
+}

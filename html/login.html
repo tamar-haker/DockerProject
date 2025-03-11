@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body dir="rtl">
+    <header>
+        <img id="logo" src="../imege/לוגו בלי רקע.png">
+    </header>
+    <div id="formLoginContainer">
+        <h2>התחברות לחשבון</h2>
+        <form id="login-form">
+            <label for="username">שם משתמש:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">סיסמא:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">כתובת דוא"ל:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit" id="sendLogin">התחבר</button>
+        </form>
+        <button type="submit" id="btnRegister">עוד לא רשומים? להרשמה</button></a>
+    </div>
+
+    <div id="formRegisterContainer">
+        <h2>הירשם לאתר</h2>
+        <form id="register-form">
+            <label for="register-username">שם משתמש:</label>
+            <input type="text" id="register-username" name="username" required>
+
+            <label for="register-email">כתובת דוא"ל:</label>
+            <input type="email" id="register-email" name="email" required>
+
+            <label for="register-password">סיסמה:</label>
+            <input type="password" id="register-password" name="password" required>
+
+            <label for="register-password-confirm">אישור סיסמא</label>
+            <input type="password" id="register-password-confirm" name="password-confirm" required>
+
+            <button type="submit" id="sending">הרשם</button>
+        </form>
+    </div>
+</body>
+<script src="../js/login.js"></script>
+<script src="../js/User.js"></script>
+
+</html>
